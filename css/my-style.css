@@ -122,11 +122,13 @@ a {
   font-weight: 400;
 }
 
-.review-box {
-}
-
 .client-info img {
   border-radius: 50%;
+}
+
+.project,
+.client {
+  width: 30%;
 }
 
 #contact-us {
