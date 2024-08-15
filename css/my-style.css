@@ -128,7 +128,14 @@ a {
 
 .project,
 .client {
-  width: 30%;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .project,
+  .client {
+    width: 30%;
+  }
 }
 
 #contact-us {
