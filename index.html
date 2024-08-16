@@ -1,320 +1,407 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap App</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/my-style.css">
-</head>
-<!-- <div class="container-fluid min-vh-100" style="background-color: #2F6B4F;"></div> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/my-style.css" />
+  </head>
 
-<section id="slider" class="h-auto">
-    <!-- start navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark">
+  <body>
+    <!-- <div class="container-fluid min-vh-100" style="background-color: #2F6B4F;"></div> -->
+
+    <section id="slider" class="h-auto">
+      <!-- start navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./images/logo.png" class="img-fluid me-1" alt="Logo">
-                Bubble Bash
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <img src="/icons/menu-button.svg" alt="menu">
+          <a class="navbar-brand" href="#">
+            <img src="./images/logo.png" class="img-fluid me-1" alt="Logo" />
+            Bubble Bash
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img src="/icons/menu-button.svg" alt="menu" />
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-md-end text-center"
+            id="navbarNavDropdown"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#slider"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#services"
+                  >Our Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#portofolios"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#reviews"
+                  >Testimonial</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#contact-us"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- end navbar -->
+      <div id="slider-content" class="container pt-5">
+        <div class="row">
+          <div class="text-white text-center">
+            <h1 class="mb-4">
+              Create Amazing Digital Product For Your Business
+            </h1>
+            <p class="col-12 col-md-6 mb-4 mx-auto gray-description">
+              We are a professional digital agency that has been established
+              since 2016, we present a variety of digital services that can help
+              you solve problems in your business
+            </p>
+            <button class="btn btn-light rounded-0 p-3 my-button">
+              Get Started
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right ms-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
+              </svg>
             </button>
-            <div class="collapse navbar-collapse justify-content-md-end text-center" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#slider">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#services">Our Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#portofolios">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#reviews">Testimonial</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#contact-us">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+          </div>
         </div>
-    </nav>
-    <!-- end navbar -->
-    <div id="slider-content" class="container pt-5">
-        <div class="row">
-            <div class="text-white text-center">
-                <h1 class="mb-4">
-                    Create Amazing Digital Product For Your Business
-                </h1>
-                <p class="col-12 col-md-6 mb-4 mx-auto gray-description">
-                    We are a professional digital agency that has been established since 2016, we present a variety of
-                    digital services that
-                    can help you solve problems in your business
-                </p>
-                <button class="btn btn-light rounded-0 p-3 my-button">
-                    Get Started
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-arrow-right ms-1" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                    </svg>
-                </button>
-            </div>
-        </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<div class="container">
-    <div class="row">
+    <div class="container">
+      <div class="row">
         <div class="slider-photo">
-            <img src="./images/img-1.png" class="img-fluid w-100" alt="image">
+          <img src="./images/img-1.png" class="img-fluid w-100" alt="image" />
         </div>
+      </div>
     </div>
-</div>
 
-<section id="numbers" class="p-4">
-    <div class="container">
+    <section id="numbers" class="p-4">
+      <div class="container">
         <div class="row">
-            <div class="d-md-flex text-center">
-                <div class="col-12 col-md-3 mt-2 mt-md-0 p-2">
-                    <h3>1.2K+</h3>
-                    <p>Happy Clients</p>
-                </div>
-                <div class="col-12 col-md-3 mt-2 mt-md-0 p-2">
-                    <h3>1.1K+</h3>
-                    <p>WorldWide Clients</p>
-                </div>
-                <div class="col-12 col-md-3 mt-2 mt-md-0 p-2">
-                    <h3>6+</h3>
-                    <p>Years of Experience</p>
-                </div>
-                <div class="col-12 col-md-3 mt-2 mt-md-0 p-2">
-                    <h3>12+</h3>
-                    <p>Award Winners</p>
-                </div>
+          <div class="d-md-flex text-center">
+            <div class="col-12 col-md-3 mt-2 mt-md-0 p-2">
+              <h3>1.2K+</h3>
+              <p>Happy Clients</p>
             </div>
+            <div class="col-12 col-md-3 mt-2 mt-md-0 p-2">
+              <h3>1.1K+</h3>
+              <p>WorldWide Clients</p>
+            </div>
+            <div class="col-12 col-md-3 mt-2 mt-md-0 p-2">
+              <h3>6+</h3>
+              <p>Years of Experience</p>
+            </div>
+            <div class="col-12 col-md-3 mt-2 mt-md-0 p-2">
+              <h3>12+</h3>
+              <p>Award Winners</p>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="services" class="py-5">
-    <div class="container">
+    <section id="services" class="py-5">
+      <div class="container">
         <div class="row">
-            <p class="mb-0">Our Services</p>
-            <h3>We Provide What You Need</h3>
-            <div class="d-md-flex justify-content-md-around mt-4 text-center">
-                <div class="service col-12 col-md-3 mt-2 mt-md-0">
-                    <img src="./images/figma.png" height="30" alt="ui/ux">
-                    <h5 class="mt-2">UI/UX Designer</h5>
-                    <p class="description">We are ready to make your site We are ready to make your site We are ready to
-                        make your site</p>
-                </div>
-                <div class="service col-12 col-md-3 mt-2 mt-md-0">
-                    <img src="./images/coding.png" height="30" alt="ui/ux">
-                    <h5 class="mt-2">Web Development</h5>
-                    <p class="description">We are ready to make your site We are ready to make your site We are ready to
-                        make your site</p>
-                </div>
-                <div class="service col-12 col-md-3 mt-2 mt-md-0">
-                    <img src="./images/content.png" height="30" alt="ui/ux">
-                    <h5 class="mt-2">Content Writer</h5>
-                    <p class="description">We are ready to make your site We are ready to make your site We are ready to
-                        make your site</p>
-                </div>
+          <p class="mb-0">Our Services</p>
+          <h3>We Provide What You Need</h3>
+          <div class="d-md-flex justify-content-md-around mt-4 text-center">
+            <div class="service col-12 col-md-3 mt-2 mt-md-0">
+              <img src="./images/figma.png" height="30" alt="ui/ux" />
+              <h5 class="mt-2">UI/UX Designer</h5>
+              <p class="description">
+                We are ready to make your site We are ready to make your site We
+                are ready to make your site
+              </p>
             </div>
-            <div class="d-md-flex justify-content-md-around mt-4 text-center">
-                <div class="service col-12 col-md-3 mt-2 mt-md-0">
-                    <img src="./images/figma.png" height="30" alt="ui/ux">
-                    <h5 class="mt-2">Branding</h5>
-                    <p class="description">We are ready to make your site We are ready to make your site We are ready
-                        to make your site</p>
-                </div>
-                <div class="service col-12 col-md-3 mt-2 mt-md-0">
-                    <img src="./images/figma.png" height="30" alt="ui/ux">
-                    <h5 class="mt-2">Editing Video</h5>
-                    <p class="description">We are ready to make your site We are ready to make your site We are ready
-                        to make your site</p>
-                </div>
-                <div class="service col-12 col-md-3 mt-2 mt-md-0">
-                    <img src="./images/figma.png" height="30" alt="ui/ux">
-                    <h5 class="mt-2">Illustration</h5>
-                    <p class="description">We are ready to make your site We are ready to make your site We are ready
-                        to make your site</p>
-                </div>
+            <div class="service col-12 col-md-3 mt-2 mt-md-0">
+              <img src="./images/coding.png" height="30" alt="ui/ux" />
+              <h5 class="mt-2">Web Development</h5>
+              <p class="description">
+                We are ready to make your site We are ready to make your site We
+                are ready to make your site
+              </p>
             </div>
+            <div class="service col-12 col-md-3 mt-2 mt-md-0">
+              <img src="./images/content.png" height="30" alt="ui/ux" />
+              <h5 class="mt-2">Content Writer</h5>
+              <p class="description">
+                We are ready to make your site We are ready to make your site We
+                are ready to make your site
+              </p>
+            </div>
+          </div>
+          <div class="d-md-flex justify-content-md-around mt-4 text-center">
+            <div class="service col-12 col-md-3 mt-2 mt-md-0">
+              <img src="./images/figma.png" height="30" alt="ui/ux" />
+              <h5 class="mt-2">Branding</h5>
+              <p class="description">
+                We are ready to make your site We are ready to make your site We
+                are ready to make your site
+              </p>
+            </div>
+            <div class="service col-12 col-md-3 mt-2 mt-md-0">
+              <img src="./images/figma.png" height="30" alt="ui/ux" />
+              <h5 class="mt-2">Editing Video</h5>
+              <p class="description">
+                We are ready to make your site We are ready to make your site We
+                are ready to make your site
+              </p>
+            </div>
+            <div class="service col-12 col-md-3 mt-2 mt-md-0">
+              <img src="./images/figma.png" height="30" alt="ui/ux" />
+              <h5 class="mt-2">Illustration</h5>
+              <p class="description">
+                We are ready to make your site We are ready to make your site We
+                are ready to make your site
+              </p>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="portofolios">
-    <div class="container mt-4">
+    <section id="portofolios">
+      <div class="container mt-4">
         <div class="row">
-            <p class="mb-0">Our Portofolio’s</p>
-            <h3>Recent Projects</h3>
-            <div class="d-md-flex justify-content-md-between mt-4">
-                <div class="col-12 col-md-3 mt-2 mt-md-0">
-                    <img src="./images/hospital.png" class="img-fluid" alt="hospital" height="200">
-                    <h4 class="mt-2">Website My Hospital</h4>
-                    <p class="description">Create a hospital website Create a hospital website Create a hospital
-                        website Create a hospital website</p>
-                </div>
-                <div class="col-12 col-md-3 mt-2 mt-md-0">
-                    <img src="./images/hospital.png" class="img-fluid" alt="hospital" height="200">
-                    <h4 class="mt-2">Website My Hospital</h4>
-                    <p class="description">Create a hospital website Create a hospital website Create a hospital
-                        website Create a hospital website</p>
-                </div>
-                <div class="col-12 col-md-3 mt-2 mt-md-0">
-                    <img src="./images/hospital.png" class="img-fluid" alt="hospital" height="200">
-                    <h4 class="mt-2">Website My Hospital</h4>
-                    <p class="description">Create a hospital website Create a hospital website Create a hospital
-                        website Create a hospital website</p>
-                </div>
+          <p class="mb-0">Our Portofolio’s</p>
+          <h3>Recent Projects</h3>
+          <div class="d-md-flex justify-content-md-between mt-4">
+            <div class="col-12 col-md-3 mt-2 mt-md-0">
+              <img
+                src="./images/hospital.png"
+                class="img-fluid"
+                alt="hospital"
+                height="200"
+              />
+              <h4 class="mt-2">Website My Hospital</h4>
+              <p class="description">
+                Create a hospital website Create a hospital website Create a
+                hospital website Create a hospital website
+              </p>
             </div>
+            <div class="col-12 col-md-3 mt-2 mt-md-0">
+              <img
+                src="./images/hospital.png"
+                class="img-fluid"
+                alt="hospital"
+                height="200"
+              />
+              <h4 class="mt-2">Website My Hospital</h4>
+              <p class="description">
+                Create a hospital website Create a hospital website Create a
+                hospital website Create a hospital website
+              </p>
+            </div>
+            <div class="col-12 col-md-3 mt-2 mt-md-0">
+              <img
+                src="./images/hospital.png"
+                class="img-fluid"
+                alt="hospital"
+                height="200"
+              />
+              <h4 class="mt-2">Website My Hospital</h4>
+              <p class="description">
+                Create a hospital website Create a hospital website Create a
+                hospital website Create a hospital website
+              </p>
+            </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="reviews">
-    <div class="container mt-4">
+    <section id="reviews">
+      <div class="container mt-4">
         <div class="row">
-            <p class="mb-0">Client Reviews</p>
-            <h3>What Our Happy Clients Say About Us</h3>
+          <p class="mb-0">Client Reviews</p>
+          <h3>What Our Happy Clients Say About Us</h3>
         </div>
-        <div class="col-12 review-box d-md-flex justify-content-md-between mt-4">
-            <div class="client col-12 col-md-3 mb-4 mb-md-0 border border-3 border-dark p-3">
-                <h4>Website My Hospital</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, qui?</p>
-                <div class="client-info d-flex">
-                    <img src="./images/client.jpg" height="50" alt="client">
-                    <div class="ms-2 align-content-center">
-                        <h6 class="mb-0">Katty Clock</h6>
-                        <p class="description mb-0">CEO My Hospital</p>
-                    </div>
-                </div>
+        <div
+          class="col-12 review-box d-md-flex justify-content-md-between mt-4"
+        >
+          <div
+            class="client col-12 col-md-3 mb-4 mb-md-0 border border-3 border-dark p-3"
+          >
+            <h4>Website My Hospital</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+              qui?
+            </p>
+            <div class="client-info d-flex">
+              <img src="./images/client.jpg" height="50" alt="client" />
+              <div class="ms-2 align-content-center">
+                <h6 class="mb-0">Katty Clock</h6>
+                <p class="description mb-0">CEO My Hospital</p>
+              </div>
             </div>
-            <div class="client col-12 col-md-3 mb-4 mb-md-0 border border-3 border-dark p-3">
-                <h4>Website My Hospital</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, qui?</p>
-                <div class="client-info d-flex">
-                    <img src="./images/client.jpg" height="50" alt="client">
-                    <div class="ms-2 align-content-center">
-                        <h6 class="mb-0">Katty Clock</h6>
-                        <p class="description mb-0">CEO My Hospital</p>
-                    </div>
-                </div>
+          </div>
+          <div
+            class="client col-12 col-md-3 mb-4 mb-md-0 border border-3 border-dark p-3"
+          >
+            <h4>Website My Hospital</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+              qui?
+            </p>
+            <div class="client-info d-flex">
+              <img src="./images/client.jpg" height="50" alt="client" />
+              <div class="ms-2 align-content-center">
+                <h6 class="mb-0">Katty Clock</h6>
+                <p class="description mb-0">CEO My Hospital</p>
+              </div>
             </div>
-            <div class="client col-12 col-md-3 mb-4 mb-md-0 border border-3 border-dark p-3">
-                <h4>Website My Hospital</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, qui?</p>
-                <div class="client-info d-flex">
-                    <img src="./images/client.jpg" height="50" alt="client">
-                    <div class="ms-2 align-content-center">
-                        <h6 class="mb-0">Katty Clock</h6>
-                        <p class="description mb-0">CEO My Hospital</p>
-                    </div>
-                </div>
+          </div>
+          <div
+            class="client col-12 col-md-3 mb-4 mb-md-0 border border-3 border-dark p-3"
+          >
+            <h4>Website My Hospital</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi,
+              qui?
+            </p>
+            <div class="client-info d-flex">
+              <img src="./images/client.jpg" height="50" alt="client" />
+              <div class="ms-2 align-content-center">
+                <h6 class="mb-0">Katty Clock</h6>
+                <p class="description mb-0">CEO My Hospital</p>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="contact-us" class="p-5">
-    <div class="container">
+    <section id="contact-us" class="p-5">
+      <div class="container">
         <div class="row">
-            <div class="text-white text-center">
-                <h1 class="col-12 col-md-7 mb-4 mx-auto">
-                    Have a project idea and
-                    want to make it come true?
-                </h1>
-                <p class="col-12 col-md-6 mb-4 mx-auto gray-description">
-                    Please contact us and we will discuss about your project, don't forget we are always here for you
-                </p>
-                <button class="btn btn-light rounded-0 p-3 my-button">
-                    Contact Us
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                        class="bi bi-arrow-right ms-1" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd"
-                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
-                    </svg>
-                </button>
-            </div>
+          <div class="text-white text-center">
+            <h1 class="col-12 col-md-7 mb-4 mx-auto">
+              Have a project idea and want to make it come true?
+            </h1>
+            <p class="col-12 col-md-6 mb-4 mx-auto gray-description">
+              Please contact us and we will discuss about your project, don't
+              forget we are always here for you
+            </p>
+            <button class="btn btn-light rounded-0 p-3 my-button">
+              Contact Us
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-arrow-right ms-1"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<footer>
-    <div class="container">
+    <footer>
+      <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 pe-0 pe-md-5">
-                <div class="mb-2 d-flex align-items-center">
-                    <img src="./images/logo.png" class="img-fluid me-2" alt="Logo">
-                    <h5 class="mb-0">
-                        Bubble Bash
-                    </h5>
-                </div>
-                <p class="mb-2">Introducing, We are Bubble Bash digital agency company with more than 6 years of experience. We are committed to serve
-                with all our heart
-                </p>
-                <div class="d-flex col-12 col-md-4 mt-4 mt-md-0 px-4 px-md-0 justify-content-between">
-                    <a href="#">
-                        <img src="icons/facebook.svg" height="22" alt="facebook">
-                    </a>
-                    <a href="#">
-                        <img src="icons/twitter.svg" height="22" alt="facebook">
-                    </a>
-                    <a href="#">
-                        <img src="icons/instagram.svg" height="22" alt="facebook">
-                    </a>
-                    <a href="#">
-                        <img src="icons/linkedin.svg" height="22" alt="facebook">
-                    </a>
-                </div>
+          <div class="col-12 col-md-6 pe-0 pe-md-5">
+            <div class="mb-2 d-flex align-items-center">
+              <img src="./images/logo.png" class="img-fluid me-2" alt="Logo" />
+              <h5 class="mb-0">Bubble Bash</h5>
             </div>
-            <div class="col-12 col-md-6 mt-4 mt-md-0">
-                <div class="col-12 d-flex text-center text-md-start">
-                    <div class="col-4">
-                        <h4 class="mt-2 mt-md-0">Pages</h4>
-                        <div class="mb-2">
-                            <a href="#">Home</a>
-                        </div>
-                        <div class="mb-2">
-                            <a href="#">Our Services</a>
-                        </div>
-                        <div class="mb-2">
-                            <a href="#">Portfolio</a>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <h4 class="mt-2 mt-md-0">Pages</h4>
-                        <div class="mb-2">
-                            <a href="#">Resources</a>
-                        </div>
-                        <div class="mb-2">
-                            <a href="#">Blog</a>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <h4 class="mt-2 mt-md-0">Pages</h4>
-                        <div class="mb-2">
-                            <a href="#">About Us</a>
-                        </div>
-                        <div class="mb-2">
-                            <a href="#">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
+            <p class="mb-2">
+              Introducing, We are Bubble Bash digital agency company with more
+              than 6 years of experience. We are committed to serve with all our
+              heart
+            </p>
+            <div
+              class="d-flex col-12 col-md-4 mt-4 mt-md-0 px-4 px-md-0 justify-content-between"
+            >
+              <a href="#">
+                <img src="icons/facebook.svg" height="22" alt="facebook" />
+              </a>
+              <a href="#">
+                <img src="icons/twitter.svg" height="22" alt="facebook" />
+              </a>
+              <a href="#">
+                <img src="icons/instagram.svg" height="22" alt="facebook" />
+              </a>
+              <a href="#">
+                <img src="icons/linkedin.svg" height="22" alt="facebook" />
+              </a>
             </div>
+          </div>
+          <div class="col-12 col-md-6 mt-4 mt-md-0">
+            <div class="col-12 d-flex text-center text-md-start">
+              <div class="col-4">
+                <h4 class="mt-2 mt-md-0">Pages</h4>
+                <div class="mb-2">
+                  <a href="#">Home</a>
+                </div>
+                <div class="mb-2">
+                  <a href="#">Our Services</a>
+                </div>
+                <div class="mb-2">
+                  <a href="#">Portfolio</a>
+                </div>
+              </div>
+              <div class="col-4">
+                <h4 class="mt-2 mt-md-0">Pages</h4>
+                <div class="mb-2">
+                  <a href="#">Resources</a>
+                </div>
+                <div class="mb-2">
+                  <a href="#">Blog</a>
+                </div>
+              </div>
+              <div class="col-4">
+                <h4 class="mt-2 mt-md-0">Pages</h4>
+                <div class="mb-2">
+                  <a href="#">About Us</a>
+                </div>
+                <div class="mb-2">
+                  <a href="#">Contact Us</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-</footer>
+      </div>
+    </footer>
 
-<script src="js/bootstrap.min.js"></script>
-</body>
-
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
